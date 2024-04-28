@@ -1,0 +1,79 @@
+html {
+    background-color: black;
+}
+
+body html{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.logo img{
+display: flex;
+float: left;
+align-items: center;
+justify-content: space-between;
+gap: 24px;
+width: 75px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 1%, 43%);
+}
+
+.navbar li{
+    float: right;
+
+}
+
+.shawarma-card img{
+    width: 300px;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    float: left;
+}
+
+h2{
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.big-img img{
+width: center;
+padding: 20px;
+}
